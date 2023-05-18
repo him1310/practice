@@ -6,9 +6,8 @@
 # "?" --> either zero or one occurrence of the character before it (from left side)
 # "\w" --> matches any alphanumeric character and underscore with left most first
 # "\d" --> matches any numeric with left most first
-# "\w" --> matches any alphanumeric character and underscore
-# "\w" --> matches any alphanumeric character and underscore
-
+# "\s" --> matches any whitespace like space, tab, newline
+# "\b" --> matches word boundaries
 
 
 import re
@@ -77,3 +76,29 @@ print(check_character_groups("shopping_list: milk, bread, eggs.")) # False
 
 
 print(re.search("\w+\s+\w+", "123  Ready Set GO" ))
+
+
+###################################################################################
+
+# Lec 5 Regex in action
+print(re.search(r"A.*a", "Argnetina"))
+print(re.search(r"A.*a", "Azerbaijan")) # it matches bcoz search string not stricter
+print(re.search(r"^A.*a$", "Ajerbaijan"))
+
+pattern = r"^[a-zA-z_][a-zA-Z0-9_]*$"
+print(re.search(pattern, "this_is_valid_variable_name"))
+
+print(re.search(pattern, "2myvarialble1"))
+
+import re
+def check_sentence(text):
+  result = re.search(r"^[A-Z][a-z ]*[\.\?\!]$", text)
+  return result
+
+print(check_sentence("Is this is a sentence?")) # True
+print(check_sentence("is this is a sentence?")) # False
+print(check_sentence("Hello")) # False
+print(check_sentence("1-2-3-GO!")) # False
+print(check_sentence("A star is born.")) # True
+
+
