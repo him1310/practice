@@ -184,10 +184,15 @@ rearrange_name("Gupta Himanshu K.")
 
 import re
 def rearrange_name(name):
-  result = re.search(r"^(\w*), (.)$", name)
+  result = re.search(r"^(\w*), (.*\.)$", name)
+  print(result)
   if result == None:
     return name
   return "{} {}".format(result[2], result[1])
 
 name=rearrange_name("Kennedy, John F.")
 print(name) 
+
+
+
+print(re.search("^(\w+) (\w+) (\w+\.)$", "King Kin g."))
