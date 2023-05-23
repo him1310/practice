@@ -158,3 +158,36 @@ print(check_time("12:45pm")) # True
 print(check_time("9:59 AM")) # True
 print(check_time("6:60am")) # False
 print(check_time("five o'clock")) # False
+
+
+# Lec Capturing groups
+result = re.search(r"(\w*), (\w*)", "Gupta, Himanshu")
+print(result)
+print(result.groups()) # Because we defined two separate groups,
+# the group method returns a tuple of two elements. 
+
+print(result[0])
+print(result[1])
+print(f"{result[2]} {result[1]}")
+
+
+
+def rearrange_name(name):
+  result = re.search(r"^(\w*), (\w*)$", name)
+  if result is None:
+    return name
+  return f"{result[2]}, {result[1]}"
+
+rearrange_name("Gupta, Himanshu")
+
+rearrange_name("Gupta Himanshu K.")
+
+import re
+def rearrange_name(name):
+  result = re.search(r"^(\w*), (.)$", name)
+  if result == None:
+    return name
+  return "{} {}".format(result[2], result[1])
+
+name=rearrange_name("Kennedy, John F.")
+print(name) 
