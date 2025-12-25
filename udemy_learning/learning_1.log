@@ -1,0 +1,4 @@
+A string literal is a sequence of characters, anything you can type on the keyboard, basically, enclosed in quotes.
+You can use either a single quote or double quotes to enclose a string. I used single quotes but you could use double quotes if you wanted to. It's important, though, to use the same ones, though.
+When calling a function, you must have parentheses after the function name,
+In case of input if one presses Enter that enter is taken as input.
