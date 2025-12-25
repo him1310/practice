@@ -1,0 +1,2232 @@
+[
+  {
+    "Date": "2025-02-01T00:00:00.000Z",
+    "Functional Location": "Uran Plant",
+    "Plant Code": "10P1",
+    "Category": "PLANT",
+    "Location Code": "URN",
+    "Sub-Location": "URAN OIL/GAS PROCESSING COMPLEX",
+    "Total": 97.8,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-01T00:00:00.000Z",
+    "Functional Location": "Dahej Plant",
+    "Plant Code": "23P1",
+    "Category": "PLANT",
+    "Location Code": "DHJ",
+    "Sub-Location": "DAHEJ GAS PROCESSING PLANT",
+    "Total": 98.49,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-01T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F9",
+    "Category": "PROC",
+    "Location Code": "BPI",
+    "Sub-Location": "B-193 Process Complex",
+    "Total": "",
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-01T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "ONINS",
+    "Location Code": "OGT",
+    "Sub-Location": "ONSHORE GAS TERMINAL",
+    "Total": 97.18,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-01T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "PROC",
+    "Location Code": "PLQ",
+    "Sub-Location": "PLQP COMPLEX",
+    "Total": 95.97,
+    "Status": "A"
+  },
+  {
+    "Date": "2026-04-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F7",
+    "Category": "PROC",
+    "Location Code": "SCA",
+    "Sub-Location": "MUMBAI HIGH SCA  COMPLEX",
+    "Total": 95.06,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-02T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F5",
+    "Category": "PROC",
+    "Location Code": "NQO",
+    "Sub-Location": "NQ PROCESS COMPLEX",
+    "Total": 94.13,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-02T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FC",
+    "Category": "PROC",
+    "Location Code": "PMC-PPP",
+    "Sub-Location": "PPA Panna Processing Platform",
+    "Total": 98.71,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-02T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SRN",
+    "Sub-Location": "RIG SAGAR RATNA, JACK-UP",
+    "Total": 98.87,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-02T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F6",
+    "Category": "PROC",
+    "Location Code": "WIN",
+    "Sub-Location": "WIN COMPLEX",
+    "Total": 95.8,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-02T00:00:00.000Z",
+    "Functional Location": "EOA",
+    "Plant Code": "41A2",
+    "Category": "ONINS",
+    "Location Code": "41A-GC9",
+    "Sub-Location": "ODALAREVU  GCS",
+    "Total": 98.32,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-03T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F2",
+    "Category": "PROC",
+    "Location Code": "BPB",
+    "Sub-Location": "BPB PROCESSING COMPLEX",
+    "Total": 96.86,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SUD",
+    "Sub-Location": "RIG SAGAR UDAY JACK-UP RIG",
+    "Total": 98.9,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-03T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F4",
+    "Category": "PROC",
+    "Location Code": "BHN",
+    "Sub-Location": "MUMBAI HIGH NORTH COMPLEX",
+    "Total": 96.18,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SBH",
+    "Sub-Location": "RIG SAGAR BHUSHAN, DRILLING SHIP",
+    "Total": 97.47,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SJY",
+    "Sub-Location": "RIG SAGAR JYOTI, JACK-UP",
+    "Total": 99.14,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-04T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SKI",
+    "Sub-Location": "RIG SAGAR KIRAN JACK-UP RIG",
+    "Total": 98.2,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-04T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F3",
+    "Category": "PROC",
+    "Location Code": "BHS-BHS",
+    "Sub-Location": "BHS PROCESS PLATFORM",
+    "Total": 95.92,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-04T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F1",
+    "Category": "PROC",
+    "Location Code": "BPA",
+    "Sub-Location": "BPA PROCESSING COMPLEX",
+    "Total": 97.52,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-05T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SVJ",
+    "Sub-Location": "RIG SAGAR VIJAY DRILLING SHIP",
+    "Total": 97,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-05T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SGV",
+    "Sub-Location": "RIG SAGAR GAURAV, JACK-UP RIG",
+    "Total": 97.82,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-05T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FB",
+    "Category": "PROC",
+    "Location Code": "TPT",
+    "Sub-Location": "TAPTI FIELD",
+    "Total": 97.19,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-05T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F3",
+    "Category": "PROC",
+    "Location Code": "SLX",
+    "Sub-Location": "SAGAR LAXMI COMPLEX",
+    "Total": 98.68,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-05T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F2",
+    "Category": "PROC",
+    "Location Code": "SHC",
+    "Sub-Location": "SH PROCESS COMPLEX COMPLEX",
+    "Total": 96.27,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-05T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11FA",
+    "Category": "PROC",
+    "Location Code": "MOP",
+    "Sub-Location": "MOPU- Sagar Samrat",
+    "Total": 95.75,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-07T00:00:00.000Z",
+    "Functional Location": "Hazira Plant",
+    "Plant Code": "10P2",
+    "Category": "PLANT",
+    "Location Code": "HZR",
+    "Sub-Location": "HAZIRA GAS PROCESSING PLANT",
+    "Total": 95.22,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F1",
+    "Category": "PROC",
+    "Location Code": "ICO",
+    "Sub-Location": "IC COMPLEX",
+    "Total": 96.1,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-07T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F1",
+    "Category": "PROC",
+    "Location Code": "HPC",
+    "Sub-Location": "HEERA PROCESS COMPLEX",
+    "Total": 95.74,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-04-09T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F2",
+    "Category": "PROC",
+    "Location Code": "NPC",
+    "Sub-Location": "NEELAM PROCESS COMPLEX",
+    "Total": 95.04,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-01T00:00:00.000Z",
+    "Functional Location": "EOA",
+    "Plant Code": "41A2",
+    "Category": "ONINS",
+    "Location Code": "41A-GC9",
+    "Sub-Location": "ODALAREVU  GCS",
+    "Total": 98.36,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-01T00:00:00.000Z",
+    "Functional Location": "Uran Plant",
+    "Plant Code": "10P1",
+    "Category": "PLANT",
+    "Location Code": "URN",
+    "Sub-Location": "URAN OIL/GAS PROCESSING COMPLEX",
+    "Total": 98.02,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-01T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F2",
+    "Category": "PROC",
+    "Location Code": "BPB",
+    "Sub-Location": "BPB PROCESSING COMPLEX",
+    "Total": 97.55,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-01T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F9",
+    "Category": "PROC",
+    "Location Code": "BPI",
+    "Sub-Location": "B-193 Process Complex",
+    "Total": 97.27,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SRN",
+    "Sub-Location": "RIG SAGAR RATNA, JACK-UP",
+    "Total": 99.6,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-02T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "PROC",
+    "Location Code": "PLQ",
+    "Sub-Location": "PLQP COMPLEX",
+    "Total": 97.19,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-02T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FB",
+    "Category": "PROC",
+    "Location Code": "TPT",
+    "Sub-Location": "TAPTI FIELD",
+    "Total": 97.83,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-02T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SBH",
+    "Sub-Location": "RIG SAGAR BHUSHAN, DRILLING SHIP",
+    "Total": 98.14,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-02T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "ONINS",
+    "Location Code": "OGT",
+    "Sub-Location": "ONSHORE GAS TERMINAL",
+    "Total": 96.73,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-02T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FC",
+    "Category": "PROC",
+    "Location Code": "PMC-PPP",
+    "Sub-Location": "PPA Panna Processing Platform",
+    "Total": 98.94,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SUD",
+    "Sub-Location": "RIG SAGAR UDAY JACK-UP RIG",
+    "Total": 98.59,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-02T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F3",
+    "Category": "PROC",
+    "Location Code": "SLX",
+    "Sub-Location": "SAGAR LAXMI COMPLEX",
+    "Total": 98.71,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-03T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11FA",
+    "Category": "PROC",
+    "Location Code": "MOP",
+    "Sub-Location": "MOPU- Sagar Samrat",
+    "Total": 95.69,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-04T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F6",
+    "Category": "PROC",
+    "Location Code": "WIN",
+    "Sub-Location": "WIN COMPLEX",
+    "Total": 96.26,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-04T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F3",
+    "Category": "PROC",
+    "Location Code": "BHS-BHS",
+    "Sub-Location": "BHS PROCESS PLATFORM",
+    "Total": 95.9,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-04T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SJY",
+    "Sub-Location": "RIG SAGAR JYOTI, JACK-UP",
+    "Total": 99.13,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F1",
+    "Category": "PROC",
+    "Location Code": "ICO",
+    "Sub-Location": "IC COMPLEX",
+    "Total": 96.28,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-05T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F7",
+    "Category": "PROC",
+    "Location Code": "SCA",
+    "Sub-Location": "MUMBAI HIGH SCA  COMPLEX",
+    "Total": 95.16,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-05T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F5",
+    "Category": "PROC",
+    "Location Code": "NQO",
+    "Sub-Location": "NQ PROCESS COMPLEX",
+    "Total": 93.94,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-05T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SKI",
+    "Sub-Location": "RIG SAGAR KIRAN JACK-UP RIG",
+    "Total": 98.1,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-05T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F4",
+    "Category": "PROC",
+    "Location Code": "BHN",
+    "Sub-Location": "MUMBAI HIGH NORTH COMPLEX",
+    "Total": 96.18,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-05T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F2",
+    "Category": "PROC",
+    "Location Code": "SHC",
+    "Sub-Location": "SH PROCESS COMPLEX COMPLEX",
+    "Total": 96.25,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-07T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F1",
+    "Category": "PROC",
+    "Location Code": "HPC",
+    "Sub-Location": "HEERA PROCESS COMPLEX",
+    "Total": 96.04,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-07T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F1",
+    "Category": "PROC",
+    "Location Code": "BPA",
+    "Sub-Location": "BPA PROCESSING COMPLEX",
+    "Total": 96.32,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-09T00:00:00.000Z",
+    "Functional Location": "Hazira Plant",
+    "Plant Code": "10P2",
+    "Category": "PLANT",
+    "Location Code": "HZR",
+    "Sub-Location": "HAZIRA GAS PROCESSING PLANT",
+    "Total": 95.48,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-11T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F2",
+    "Category": "PROC",
+    "Location Code": "NPC",
+    "Sub-Location": "NEELAM PROCESS COMPLEX",
+    "Total": 95.41,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-05T00:00:00.000Z",
+    "Functional Location": "Dahej Plant",
+    "Plant Code": "23P1",
+    "Category": "PLANT",
+    "Location Code": "DHJ",
+    "Sub-Location": "DAHEJ GAS PROCESSING PLANT",
+    "Total": 99.01,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-05-15T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SHT",
+    "Sub-Location": "RIG SAGAR SHAKTI, JACK-UP",
+    "Total": 98.16,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-01T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "PROC",
+    "Location Code": "PLQ",
+    "Sub-Location": "PLQP COMPLEX",
+    "Total": 97.41,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SJY",
+    "Sub-Location": "RIG SAGAR JYOTI, JACK-UP",
+    "Total": 99.28,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-01T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F9",
+    "Category": "PROC",
+    "Location Code": "BPI",
+    "Sub-Location": "B-193 Process Complex",
+    "Total": 97.32,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11FA",
+    "Category": "PROC",
+    "Location Code": "MOP",
+    "Sub-Location": "MOPU- Sagar Samrat",
+    "Total": 95.8,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SVJ",
+    "Sub-Location": "RIG SAGAR VIJAY DRILLING SHIP",
+    "Total": 97.5,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F4",
+    "Category": "PROC",
+    "Location Code": "BHN",
+    "Sub-Location": "MUMBAI HIGH NORTH COMPLEX",
+    "Total": 96.95,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F1",
+    "Category": "PROC",
+    "Location Code": "ICO",
+    "Sub-Location": "IC COMPLEX",
+    "Total": 96.67,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-02T00:00:00.000Z",
+    "Functional Location": "Dahej Plant",
+    "Plant Code": "23P1",
+    "Category": "PLANT",
+    "Location Code": "DHJ",
+    "Sub-Location": "DAHEJ GAS PROCESSING PLANT",
+    "Total": 99.25,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-02T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "ONINS",
+    "Location Code": "OGT",
+    "Sub-Location": "ONSHORE GAS TERMINAL",
+    "Total": 96.28,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-02T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SBH",
+    "Sub-Location": "RIG SAGAR BHUSHAN, DRILLING SHIP",
+    "Total": 98.18,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-02T00:00:00.000Z",
+    "Functional Location": "Uran Plant",
+    "Plant Code": "10P1",
+    "Category": "PLANT",
+    "Location Code": "URN",
+    "Sub-Location": "URAN OIL/GAS PROCESSING COMPLEX",
+    "Total": 98.03,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-02T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FB",
+    "Category": "PROC",
+    "Location Code": "TPT",
+    "Sub-Location": "TAPTI FIELD",
+    "Total": 97.92,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SRN",
+    "Sub-Location": "RIG SAGAR RATNA, JACK-UP",
+    "Total": 99.38,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-03T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F7",
+    "Category": "PROC",
+    "Location Code": "SCA",
+    "Sub-Location": "MUMBAI HIGH SCA  COMPLEX",
+    "Total": 95.38,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-03T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F5",
+    "Category": "PROC",
+    "Location Code": "NQO",
+    "Sub-Location": "NQ PROCESS COMPLEX",
+    "Total": 93.52,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SUD",
+    "Sub-Location": "RIG SAGAR UDAY JACK-UP RIG",
+    "Total": 98.69,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-03T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FC",
+    "Category": "PROC",
+    "Location Code": "PMC-PPP",
+    "Sub-Location": "PPA Panna Processing Platform",
+    "Total": 99,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-04T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SGV",
+    "Sub-Location": "RIG SAGAR GAURAV, JACK-UP RIG",
+    "Total": 99.36,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-04T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F6",
+    "Category": "PROC",
+    "Location Code": "WIN",
+    "Sub-Location": "WIN COMPLEX",
+    "Total": 96.08,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-04T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SHT",
+    "Sub-Location": "RIG SAGAR SHAKTI, JACK-UP",
+    "Total": 98.46,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-04T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SKI",
+    "Sub-Location": "RIG SAGAR KIRAN JACK-UP RIG",
+    "Total": 98.4,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-05T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F3",
+    "Category": "PROC",
+    "Location Code": "BHS-BHS",
+    "Sub-Location": "BHS PROCESS PLATFORM",
+    "Total": 96.64,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-05T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F2",
+    "Category": "PROC",
+    "Location Code": "BPB",
+    "Sub-Location": "BPB PROCESSING COMPLEX",
+    "Total": 97.82,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-05T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F1",
+    "Category": "PROC",
+    "Location Code": "BPA",
+    "Sub-Location": "BPA PROCESSING COMPLEX",
+    "Total": 96.54,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-06T00:00:00.000Z",
+    "Functional Location": "EOA",
+    "Plant Code": "41A2",
+    "Category": "ONINS",
+    "Location Code": "41A-GC9",
+    "Sub-Location": "ODALAREVU  GCS",
+    "Total": 98.36,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-06T00:00:00.000Z",
+    "Functional Location": "Hazira Plant",
+    "Plant Code": "10P2",
+    "Category": "PLANT",
+    "Location Code": "HZR",
+    "Sub-Location": "HAZIRA GAS PROCESSING PLANT",
+    "Total": 95.59,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-08T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F1",
+    "Category": "PROC",
+    "Location Code": "HPC",
+    "Sub-Location": "HEERA PROCESS COMPLEX",
+    "Total": 96.21,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-08T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F2",
+    "Category": "PROC",
+    "Location Code": "SHC",
+    "Sub-Location": "SH PROCESS COMPLEX COMPLEX",
+    "Total": 96.25,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-07T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F3",
+    "Category": "PROC",
+    "Location Code": "SLX",
+    "Sub-Location": "SAGAR LAXMI COMPLEX",
+    "Total": 98.71,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-01T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F9",
+    "Category": "PROC",
+    "Location Code": "BPI",
+    "Sub-Location": "B-193 Process Complex",
+    "Total": 97.07,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-01T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "PROC",
+    "Location Code": "PLQ",
+    "Sub-Location": "PLQP COMPLEX",
+    "Total": 97.29,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SGV",
+    "Sub-Location": "RIG SAGAR GAURAV, JACK-UP RIG",
+    "Total": 99.49,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-01T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F1",
+    "Category": "PROC",
+    "Location Code": "HPC",
+    "Sub-Location": "HEERA PROCESS COMPLEX",
+    "Total": 96.1,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SUD",
+    "Sub-Location": "RIG SAGAR UDAY JACK-UP RIG",
+    "Total": 98.34,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-01T00:00:00.000Z",
+    "Functional Location": "Uran Plant",
+    "Plant Code": "10P1",
+    "Category": "PLANT",
+    "Location Code": "URN",
+    "Sub-Location": "URAN OIL/GAS PROCESSING COMPLEX",
+    "Total": 98.32,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SKI",
+    "Sub-Location": "RIG SAGAR KIRAN JACK-UP RIG",
+    "Total": 98.25,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-02T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F1",
+    "Category": "PROC",
+    "Location Code": "ICO",
+    "Sub-Location": "IC COMPLEX",
+    "Total": 95.93,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-02T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SRN",
+    "Sub-Location": "RIG SAGAR RATNA, JACK-UP",
+    "Total": 98.8,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-02T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SBH",
+    "Sub-Location": "RIG SAGAR BHUSHAN, DRILLING SHIP",
+    "Total": 98.11,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-02T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F4",
+    "Category": "PROC",
+    "Location Code": "BHN",
+    "Sub-Location": "MUMBAI HIGH NORTH COMPLEX",
+    "Total": 96.26,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SHT",
+    "Sub-Location": "RIG SAGAR SHAKTI, JACK-UP",
+    "Total": 98.24,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SJY",
+    "Sub-Location": "RIG SAGAR JYOTI, JACK-UP",
+    "Total": 98.11,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-03T00:00:00.000Z",
+    "Functional Location": "EOA",
+    "Plant Code": "41A2",
+    "Category": "ONINS",
+    "Location Code": "41A-GC9",
+    "Sub-Location": "ODALAREVU  GCS",
+    "Total": 98.36,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-03T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F5",
+    "Category": "PROC",
+    "Location Code": "NQO",
+    "Sub-Location": "NQ PROCESS COMPLEX",
+    "Total": 94.13,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F7",
+    "Category": "PROC",
+    "Location Code": "SCA",
+    "Sub-Location": "MUMBAI HIGH SCA  COMPLEX",
+    "Total": 95.96,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-04T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F2",
+    "Category": "PROC",
+    "Location Code": "BPB",
+    "Sub-Location": "BPB PROCESSING COMPLEX",
+    "Total": 98.08,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-05T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FC",
+    "Category": "PROC",
+    "Location Code": "PMC-PPP",
+    "Sub-Location": "PPA Panna Processing Platform",
+    "Total": 99,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F6",
+    "Category": "PROC",
+    "Location Code": "WIN",
+    "Sub-Location": "WIN COMPLEX",
+    "Total": 96.03,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-05T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F3",
+    "Category": "PROC",
+    "Location Code": "SLX",
+    "Sub-Location": "SAGAR LAXMI COMPLEX",
+    "Total": 98.71,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-05T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11FA",
+    "Category": "PROC",
+    "Location Code": "MOP",
+    "Sub-Location": "MOPU- Sagar Samrat",
+    "Total": 95.4,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-06T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FB",
+    "Category": "PROC",
+    "Location Code": "TPT",
+    "Sub-Location": "TAPTI FIELD",
+    "Total": 98.37,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-06T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F1",
+    "Category": "PROC",
+    "Location Code": "BPA",
+    "Sub-Location": "BPA PROCESSING COMPLEX",
+    "Total": 96.54,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-08T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "ONINS",
+    "Location Code": "OGT",
+    "Sub-Location": "ONSHORE GAS TERMINAL",
+    "Total": 96.54,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-08T00:00:00.000Z",
+    "Functional Location": "Dahej Plant",
+    "Plant Code": "23P1",
+    "Category": "PLANT",
+    "Location Code": "DHJ",
+    "Sub-Location": "DAHEJ GAS PROCESSING PLANT",
+    "Total": 98.15,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-08T00:00:00.000Z",
+    "Functional Location": "Hazira Plant",
+    "Plant Code": "10P2",
+    "Category": "PLANT",
+    "Location Code": "HZR",
+    "Sub-Location": "HAZIRA GAS PROCESSING PLANT",
+    "Total": 95.65,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-08T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F3",
+    "Category": "PROC",
+    "Location Code": "BHS-BHS",
+    "Sub-Location": "BHS PROCESS PLATFORM",
+    "Total": 96.86,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F2",
+    "Category": "PROC",
+    "Location Code": "SHC",
+    "Sub-Location": "SH PROCESS COMPLEX COMPLEX",
+    "Total": 96.16,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-06-05T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F2",
+    "Category": "PROC",
+    "Location Code": "NPC",
+    "Sub-Location": "NEELAM PROCESS COMPLEX",
+    "Total": 95.35,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-07-19T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F2",
+    "Category": "PROC",
+    "Location Code": "NPC",
+    "Sub-Location": "NEELAM PROCESS COMPLEX",
+    "Total": 95.57,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-01T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F2",
+    "Category": "PROC",
+    "Location Code": "NPC",
+    "Sub-Location": "NEELAM PROCESS COMPLEX",
+    "Total": 95.7,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-01T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F9",
+    "Category": "PROC",
+    "Location Code": "BPI",
+    "Sub-Location": "B-193 Process Complex",
+    "Total": 97.04,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SJY",
+    "Sub-Location": "RIG SAGAR JYOTI, JACK-UP",
+    "Total": 99.3,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SUD",
+    "Sub-Location": "RIG SAGAR UDAY JACK-UP RIG",
+    "Total": 98.61,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-02T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F1",
+    "Category": "PROC",
+    "Location Code": "HPC",
+    "Sub-Location": "HEERA PROCESS COMPLEX",
+    "Total": 97.54,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-02T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SGV",
+    "Sub-Location": "RIG SAGAR GAURAV, JACK-UP RIG",
+    "Total": 99.35,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F7",
+    "Category": "PROC",
+    "Location Code": "SCA",
+    "Sub-Location": "MUMBAI HIGH SCA  COMPLEX",
+    "Total": 95.4,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SBH",
+    "Sub-Location": "RIG SAGAR BHUSHAN, DRILLING SHIP",
+    "Total": 98.14,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-03T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F2",
+    "Category": "PROC",
+    "Location Code": "BPB",
+    "Sub-Location": "BPB PROCESSING COMPLEX",
+    "Total": 98.01,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-03T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "PROC",
+    "Location Code": "PLQ",
+    "Sub-Location": "PLQP COMPLEX",
+    "Total": 97.27,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-03T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F4",
+    "Category": "PROC",
+    "Location Code": "BHN",
+    "Sub-Location": "MUMBAI HIGH NORTH COMPLEX",
+    "Total": 96.36,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-03T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F2",
+    "Category": "PROC",
+    "Location Code": "SHC",
+    "Sub-Location": "SH PROCESS COMPLEX COMPLEX",
+    "Total": 96.09,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-03T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FB",
+    "Category": "PROC",
+    "Location Code": "TPT",
+    "Sub-Location": "TAPTI FIELD",
+    "Total": 98.54,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SRN",
+    "Sub-Location": "RIG SAGAR RATNA, JACK-UP",
+    "Total": 99.3,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-03T00:00:00.000Z",
+    "Functional Location": "EOA",
+    "Plant Code": "41A2",
+    "Category": "ONINS",
+    "Location Code": "EOA",
+    "Sub-Location": "Eastern Offshore Asset",
+    "Total": 98.86,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-03T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F1",
+    "Category": "PROC",
+    "Location Code": "BPA",
+    "Sub-Location": "BPA PROCESSING COMPLEX",
+    "Total": 96.85,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-04T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F6",
+    "Category": "PROC",
+    "Location Code": "WIN",
+    "Sub-Location": "WIN COMPLEX",
+    "Total": 96.03,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-04T00:00:00.000Z",
+    "Functional Location": "Uran Plant",
+    "Plant Code": "10P1",
+    "Category": "PLANT",
+    "Location Code": "URN",
+    "Sub-Location": "URAN OIL/GAS PROCESSING COMPLEX",
+    "Total": 98.48,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-04T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SKI",
+    "Sub-Location": "RIG SAGAR KIRAN JACK-UP RIG",
+    "Total": 98.39,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-04T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "ONINS",
+    "Location Code": "OGT",
+    "Sub-Location": "ONSHORE GAS TERMINAL",
+    "Total": 96.74,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-04T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F1",
+    "Category": "PROC",
+    "Location Code": "ICO",
+    "Sub-Location": "IC COMPLEX",
+    "Total": 95.19,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-05T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SHT",
+    "Sub-Location": "RIG SAGAR SHAKTI, JACK-UP",
+    "Total": 98.33,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-05T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F3",
+    "Category": "PROC",
+    "Location Code": "SLX",
+    "Sub-Location": "SAGAR LAXMI COMPLEX",
+    "Total": 98.61,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-05T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FC",
+    "Category": "PROC",
+    "Location Code": "PMC-PPP",
+    "Sub-Location": "PPA Panna Processing Platform",
+    "Total": 98.68,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-06T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F3",
+    "Category": "PROC",
+    "Location Code": "BHS-BHS",
+    "Sub-Location": "BHS PROCESS PLATFORM",
+    "Total": 96.74,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-06T00:00:00.000Z",
+    "Functional Location": "Dahej Plant",
+    "Plant Code": "23P1",
+    "Category": "PLANT",
+    "Location Code": "DHJ",
+    "Sub-Location": "DAHEJ GAS PROCESSING PLANT",
+    "Total": 98.18,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-08T00:00:00.000Z",
+    "Functional Location": "Hazira Plant",
+    "Plant Code": "10P2",
+    "Category": "PLANT",
+    "Location Code": "HZR",
+    "Sub-Location": "HAZIRA GAS PROCESSING PLANT",
+    "Total": 95.73,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-08T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11FA",
+    "Category": "PROC",
+    "Location Code": "MOP",
+    "Sub-Location": "MOPU- Sagar Samrat",
+    "Total": 95.95,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-08-25T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F5",
+    "Category": "PROC",
+    "Location Code": "NQO",
+    "Sub-Location": "NQ PROCESS COMPLEX",
+    "Total": 94.19,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SGV",
+    "Sub-Location": "RIG SAGAR GAURAV, JACK-UP RIG",
+    "Total": 99.45,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-01T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FC",
+    "Category": "PROC",
+    "Location Code": "PMC-PPP",
+    "Sub-Location": "PPA Panna Processing Platform",
+    "Total": 99.3,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-01T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FB",
+    "Category": "PROC",
+    "Location Code": "TPT",
+    "Sub-Location": "TAPTI FIELD",
+    "Total": 98.45,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-01T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F9",
+    "Category": "PROC",
+    "Location Code": "BPI",
+    "Sub-Location": "B-193 Process Complex",
+    "Total": 97.04,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-01T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "PROC",
+    "Location Code": "PLQ",
+    "Sub-Location": "PLQP COMPLEX",
+    "Total": 96.5,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-01T00:00:00.000Z",
+    "Functional Location": "EOA",
+    "Plant Code": "41A2",
+    "Category": "ONINS",
+    "Location Code": "41A-GC9",
+    "Sub-Location": "ODALAREVU  GCS",
+    "Total": 98.86,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F7",
+    "Category": "PROC",
+    "Location Code": "SCA",
+    "Sub-Location": "MUMBAI HIGH SCA  COMPLEX",
+    "Total": 96.39,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-02T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SRN",
+    "Sub-Location": "RIG SAGAR RATNA, JACK-UP",
+    "Total": 99.38,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-02T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F6",
+    "Category": "PROC",
+    "Location Code": "WIN",
+    "Sub-Location": "WIN COMPLEX",
+    "Total": 96.03,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-02T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "ONINS",
+    "Location Code": "OGT",
+    "Sub-Location": "ONSHORE GAS TERMINAL",
+    "Total": 97.02,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-02T00:00:00.000Z",
+    "Functional Location": "Uran Plant",
+    "Plant Code": "10P1",
+    "Category": "PLANT",
+    "Location Code": "URN",
+    "Sub-Location": "URAN OIL/GAS PROCESSING COMPLEX",
+    "Total": 97.68,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-02T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SKI",
+    "Sub-Location": "RIG SAGAR KIRAN JACK-UP RIG",
+    "Total": 98.3,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-02T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SBH",
+    "Sub-Location": "RIG SAGAR BHUSHAN, DRILLING SHIP",
+    "Total": 98.19,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-03T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11FA",
+    "Category": "PROC",
+    "Location Code": "MOP",
+    "Sub-Location": "MOPU- Sagar Samrat",
+    "Total": 96.34,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SHT",
+    "Sub-Location": "RIG SAGAR SHAKTI, JACK-UP",
+    "Total": 98.42,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-04T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F1",
+    "Category": "PROC",
+    "Location Code": "HPC",
+    "Sub-Location": "HEERA PROCESS COMPLEX",
+    "Total": 98.12,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-04T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F2",
+    "Category": "PROC",
+    "Location Code": "SHC",
+    "Sub-Location": "SH PROCESS COMPLEX COMPLEX",
+    "Total": 96.17,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-04T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F5",
+    "Category": "PROC",
+    "Location Code": "NQO",
+    "Sub-Location": "NQ PROCESS COMPLEX",
+    "Total": 94.12,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-05T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SJY",
+    "Sub-Location": "RIG SAGAR JYOTI, JACK-UP",
+    "Total": 99.5,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-05T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F2",
+    "Category": "PROC",
+    "Location Code": "BPB",
+    "Sub-Location": "BPB PROCESSING COMPLEX",
+    "Total": 97.84,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-05T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F1",
+    "Category": "PROC",
+    "Location Code": "ICO",
+    "Sub-Location": "IC COMPLEX",
+    "Total": 94.92,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-05T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F2",
+    "Category": "PROC",
+    "Location Code": "NPC",
+    "Sub-Location": "NEELAM PROCESS COMPLEX",
+    "Total": 95.01,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-06T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SUD",
+    "Sub-Location": "RIG SAGAR UDAY JACK-UP RIG",
+    "Total": 98.76,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-06T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F1",
+    "Category": "PROC",
+    "Location Code": "BPA",
+    "Sub-Location": "BPA PROCESSING COMPLEX",
+    "Total": 97,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-08T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F4",
+    "Category": "PROC",
+    "Location Code": "BHN",
+    "Sub-Location": "MUMBAI HIGH NORTH COMPLEX",
+    "Total": 96.36,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-08T00:00:00.000Z",
+    "Functional Location": "Dahej Plant",
+    "Plant Code": "23P1",
+    "Category": "PLANT",
+    "Location Code": "DHJ",
+    "Sub-Location": "DAHEJ GAS PROCESSING PLANT",
+    "Total": 97.54,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-10T00:00:00.000Z",
+    "Functional Location": "Hazira Plant",
+    "Plant Code": "10P2",
+    "Category": "PLANT",
+    "Location Code": "HZR",
+    "Sub-Location": "HAZIRA GAS PROCESSING PLANT",
+    "Total": 95.76,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-09-16T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F3",
+    "Category": "PROC",
+    "Location Code": "BHS-BHS",
+    "Sub-Location": "BHS PROCESS PLATFORM",
+    "Total": 96.74,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-01T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F9",
+    "Category": "PROC",
+    "Location Code": "BPI",
+    "Sub-Location": "B-193 Process Complex",
+    "Total": 97.06,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-01T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F2",
+    "Category": "PROC",
+    "Location Code": "BPB",
+    "Sub-Location": "BPB PROCESSING COMPLEX",
+    "Total": 97.57,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SRN",
+    "Sub-Location": "RIG SAGAR RATNA, JACK-UP",
+    "Total": 99.38,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SJY",
+    "Sub-Location": "RIG SAGAR JYOTI, JACK-UP",
+    "Total": 99.44,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-02T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "PROC",
+    "Location Code": "PLQ",
+    "Sub-Location": "PLQP COMPLEX",
+    "Total": 96.45,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-02T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FC",
+    "Category": "PROC",
+    "Location Code": "PMC-PPP",
+    "Sub-Location": "PPA Panna Processing Platform",
+    "Total": 99.11,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-02T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F4",
+    "Category": "PROC",
+    "Location Code": "BHN",
+    "Sub-Location": "MUMBAI HIGH NORTH COMPLEX",
+    "Total": 97.19,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-01T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F7",
+    "Category": "PROC",
+    "Location Code": "SCA",
+    "Sub-Location": "MUMBAI HIGH SCA  COMPLEX",
+    "Total": 96.07,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-02T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F5",
+    "Category": "PROC",
+    "Location Code": "NQO",
+    "Sub-Location": "NQ PROCESS COMPLEX",
+    "Total": 94.1,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SHT",
+    "Sub-Location": "RIG SAGAR SHAKTI, JACK-UP",
+    "Total": 98.74,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SKI",
+    "Sub-Location": "RIG SAGAR KIRAN JACK-UP RIG",
+    "Total": 98.2,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SBH",
+    "Sub-Location": "RIG SAGAR BHUSHAN, DRILLING SHIP",
+    "Total": 98.15,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SUD",
+    "Sub-Location": "RIG SAGAR UDAY JACK-UP RIG",
+    "Total": 98.4,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-03T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SGV",
+    "Sub-Location": "RIG SAGAR GAURAV, JACK-UP RIG",
+    "Total": 99.73,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-04T00:00:00.000Z",
+    "Functional Location": "EOA",
+    "Plant Code": "41A2",
+    "Category": "ONINS",
+    "Location Code": "41A-GC9",
+    "Sub-Location": "ODALAREVU  GCS",
+    "Total": 98.86,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-05T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11FA",
+    "Category": "PROC",
+    "Location Code": "MOP",
+    "Sub-Location": "MOPU- Sagar Samrat",
+    "Total": 96.57,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-05T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F1",
+    "Category": "PROC",
+    "Location Code": "HPC",
+    "Sub-Location": "HEERA PROCESS COMPLEX",
+    "Total": 98.06,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-05T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F3",
+    "Category": "PROC",
+    "Location Code": "SLX",
+    "Sub-Location": "SAGAR LAXMI COMPLEX",
+    "Total": 98.71,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-06T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F1",
+    "Category": "PROC",
+    "Location Code": "ICO",
+    "Sub-Location": "IC COMPLEX",
+    "Total": 95.32,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-06T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F3",
+    "Category": "PROC",
+    "Location Code": "BHS-BHS",
+    "Sub-Location": "BHS PROCESS PLATFORM",
+    "Total": 96.72,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-06T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F2",
+    "Category": "PROC",
+    "Location Code": "SHC",
+    "Sub-Location": "SH PROCESS COMPLEX COMPLEX",
+    "Total": 96.07,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-07T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F2",
+    "Category": "PROC",
+    "Location Code": "NPC",
+    "Sub-Location": "NEELAM PROCESS COMPLEX",
+    "Total": 95.17,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-07T00:00:00.000Z",
+    "Functional Location": "Dahej Plant",
+    "Plant Code": "23P1",
+    "Category": "PLANT",
+    "Location Code": "DHJ",
+    "Sub-Location": "DAHEJ GAS PROCESSING PLANT",
+    "Total": 98.45,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-07T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "ONINS",
+    "Location Code": "OGT",
+    "Sub-Location": "ONSHORE GAS TERMINAL",
+    "Total": 97.41,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-08T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F1",
+    "Category": "PROC",
+    "Location Code": "BPA",
+    "Sub-Location": "BPA PROCESSING COMPLEX",
+    "Total": 95.16,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-10T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FB",
+    "Category": "PROC",
+    "Location Code": "TPT",
+    "Sub-Location": "TAPTI FIELD",
+    "Total": 98.69,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-10-10T00:00:00.000Z",
+    "Functional Location": "Hazira Plant",
+    "Plant Code": "10P2",
+    "Category": "PLANT",
+    "Location Code": "HZR",
+    "Sub-Location": "HAZIRA GAS PROCESSING PLANT",
+    "Total": 95.87,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-01T00:00:00.000Z",
+    "Functional Location": "EOA",
+    "Plant Code": "41A2",
+    "Category": "ONINS",
+    "Location Code": "41A-GC9",
+    "Sub-Location": "ODALAREVU  GCS",
+    "Total": 98.69,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SBH",
+    "Sub-Location": "RIG SAGAR BHUSHAN, DRILLING SHIP",
+    "Total": 98.79,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-01T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SRN",
+    "Sub-Location": "RIG SAGAR RATNA, JACK-UP",
+    "Total": 99.38,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-02T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FC",
+    "Category": "PROC",
+    "Location Code": "PMC-PPP",
+    "Sub-Location": "PPA Panna Processing Platform",
+    "Total": 98.71,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-02T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SUD",
+    "Sub-Location": "RIG SAGAR UDAY JACK-UP RIG",
+    "Total": 98.39,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-02T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13FB",
+    "Category": "PROC",
+    "Location Code": "TPT",
+    "Sub-Location": "TAPTI FIELD",
+    "Total": 98.44,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-03T00:00:00.000Z",
+    "Functional Location": "Dahej Plant",
+    "Plant Code": "23P1",
+    "Category": "PLANT",
+    "Location Code": "DHJ",
+    "Sub-Location": "DAHEJ GAS PROCESSING PLANT",
+    "Total": 98.43,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-03T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11FA",
+    "Category": "PROC",
+    "Location Code": "MOP",
+    "Sub-Location": "MOPU- Sagar Samrat",
+    "Total": 96.39,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-03T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F9",
+    "Category": "PROC",
+    "Location Code": "BPI",
+    "Sub-Location": "B-193 Process Complex",
+    "Total": 96.99,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-03T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F2",
+    "Category": "PROC",
+    "Location Code": "SHC",
+    "Sub-Location": "SH PROCESS COMPLEX COMPLEX",
+    "Total": 96.18,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-04T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SGV",
+    "Sub-Location": "RIG SAGAR GAURAV, JACK-UP RIG",
+    "Total": 99.68,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-04T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F6",
+    "Category": "PROC",
+    "Location Code": "WIN",
+    "Sub-Location": "WIN COMPLEX",
+    "Total": 96.08,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-04T00:00:00.000Z",
+    "Functional Location": "NH Asset",
+    "Plant Code": "12F1",
+    "Category": "PROC",
+    "Location Code": "HPC",
+    "Sub-Location": "HEERA PROCESS COMPLEX",
+    "Total": 97.74,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-04T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F2",
+    "Category": "PROC",
+    "Location Code": "BPB",
+    "Sub-Location": "BPB PROCESSING COMPLEX",
+    "Total": 97.8,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-04T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "ONINS",
+    "Location Code": "OGT",
+    "Sub-Location": "ONSHORE GAS TERMINAL",
+    "Total": 97.51,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-04T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F4",
+    "Category": "PROC",
+    "Location Code": "BHN",
+    "Sub-Location": "MUMBAI HIGH NORTH COMPLEX",
+    "Total": 97.69,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-06T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SHT",
+    "Sub-Location": "RIG SAGAR SHAKTI, JACK-UP",
+    "Total": 98.44,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-06T00:00:00.000Z",
+    "Functional Location": "HPHT",
+    "Plant Code": "41A3",
+    "Category": "PROC",
+    "Location Code": "PLQ",
+    "Sub-Location": "PLQP COMPLEX",
+    "Total": 95.49,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-06T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F5",
+    "Category": "PROC",
+    "Location Code": "NQO",
+    "Sub-Location": "NQ PROCESS COMPLEX",
+    "Total": 93.93,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-06T00:00:00.000Z",
+    "Functional Location": "B&S Asset",
+    "Plant Code": "13F1",
+    "Category": "PROC",
+    "Location Code": "BPA",
+    "Sub-Location": "BPA PROCESSING COMPLEX",
+    "Total": 97.06,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-07T00:00:00.000Z",
+    "Functional Location": "Drilling Services",
+    "Plant Code": "10D1",
+    "Category": "ORIGS",
+    "Location Code": "SJY",
+    "Sub-Location": "RIG SAGAR JYOTI, JACK-UP",
+    "Total": 99.64,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-10T00:00:00.000Z",
+    "Functional Location": "MH Asset",
+    "Plant Code": "11F3",
+    "Category": "PROC",
+    "Location Code": "BHS-BHS",
+    "Sub-Location": "BHS PROCESS PLATFORM",
+    "Total": 96.64,
+    "Status": "A"
+  },
+  {
+    "Date": "2025-11-18T00:00:00.000Z",
+    "Functional Location": "Hazira Plant",
+    "Plant Code": "10P2",
+    "Category": "PLANT",
+    "Location Code": "HZR",
+    "Sub-Location": "HAZIRA GAS PROCESSING PLANT",
+    "Total": 95.99,
+    "Status": "A"
+  }
+]
