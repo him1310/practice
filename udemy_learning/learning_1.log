@@ -28,3 +28,15 @@ Operator Precedence - PEMDAS - parentheses, Exponents, Multiplication/Division, 
 Sequence is ordered set of items.
 Range is type of sequence that can't be concatenated
 In Python, every data type can be coerced into strings.
+elif must always come after if and before else, if there is an else.
+    - less than <
+    - greater than >
+    - less than equal too <=
+    - greater than equal to >=
+    - equal to ==
+    - Not equal to !=
+
+
+What does casefold() do?
+casefold() is a string method in Python that is used for aggressive, language-aware case-insensitive comparison. 
+It converts a string into a normalized lowercase form that is stronger than lower(), especially for Unicode characters.

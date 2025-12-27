@@ -62,3 +62,45 @@ print("Pi is approximately {0:72.50f}".format(22 / 7))
     
 # f strings introduces in python 3.6
 print(f"Pi is approximately {22 / 7:.50f}") # formatting in f strings
+#guissing game
+
+answer = 5
+
+guess = int(input("Please guess the number between 1 to 10: "))
+
+# if guess < answer:
+#     print("Please guess higher")
+# elif guess > answer:
+#     print("Please guess lower")
+# else:
+#     print("You got the number")
+if guess == answer:
+    print("You got it first time")
+else:
+    if guess < answer:
+        print("Please guess higher")
+    else:
+        print("Please guess lower")
+    guess = int(input("enter second guess: "))
+    if guess == answer:
+        print("You got it in second answer")
+    else:
+        print("You guess it wrongly on second time")
+
+#comparisons chained
+if 16 <= age <= 65:
+    print(f"your age is: {age}")
+
+age =  0
+if not age:
+    print("test")
+else:
+    print("test1")
+
+name = input("Your name: ")
+if name: # you dont have to write if name != "", this one makes it too simple.
+    print(f"You name is {name}")
+else:
+    print("Are you man with no name")
+
+# till video 53 
