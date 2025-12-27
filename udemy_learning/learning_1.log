@@ -4,3 +4,27 @@ When calling a function, you must have parentheses after the function name,
 In case of input if one presses Enter that enter is taken as input.
 Before the assignment, anything on the right of the equals symbol is evaluated first
 Now another alternative is when use triple quotes then there's no need to escape any quotes inside the string
+Python variable can start with letter Upper or lower case. Or it can start with _ (underscore). Variables are case sensitive
+Python Data types - built in - 
+    - numeric
+    - iterator
+    - sequence
+    - mapping
+    - file
+    - class
+    - exception
+Numeric - int, float, complex
+Int has no maximum size limit. 
+Float can go upto 308 decimal points.
+There is no another data type in numeric i.e. Decimal
+In Python an expression is anything that can be calculated to return a value.
+Operator Precedence - PEMDAS - parentheses, Exponents, Multiplication/Division, Addition, Subtraction
+5 sequence types in python3 
+    - String
+    - list
+    - tuple
+    - range
+    - bytes and bytearray
+Sequence is ordered set of items.
+Range is type of sequence that can't be concatenated
+In Python, every data type can be coerced into strings.
