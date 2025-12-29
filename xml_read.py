@@ -3,12 +3,12 @@ import xml.etree.ElementTree as ET
 # -------------------------------------------------
 # CONFIG
 # -------------------------------------------------
-XML_FILE = "practice/results23.xml"
+XML_FILE = "practice/temp_files/results_27.xml"
 
 # EXACT plant prefixes as shown in SAP (same case)
 ALLOWED_PLANT_PREFIXES = (
-    "Mumbai High Asset, UT OFFSHORE",
-    "Neelam Heera Asset, UT OFFSHOR",
+    # "Mumbai High Asset, UT OFFSHORE",
+    # "Neelam Heera Asset, UT OFFSHOR",
     "Bassein&Satellite Asset,UTOFFS"
 )
 

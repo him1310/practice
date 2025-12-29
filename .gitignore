@@ -1,0 +1,8 @@
+#Trending Files
+*.txt
+
+#delete log file
+*.log
+
+#delete .xml fil
+temp_files/
