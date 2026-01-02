@@ -6,3 +6,13 @@
 
 #delete .xml fil
 temp_files/
+
+#ignore DPR files
+DPR/
+
+#ignore .json files
+*.json
+
+*.csv
+
+.cred_ad
