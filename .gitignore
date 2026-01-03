@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #Trending Files
 *.txt
 
@@ -16,3 +17,8 @@ DPR/
 *.csv
 
 .cred_ad
+=======
+*.csv
+*.txt
+*.list
+>>>>>>> Stashed changes
