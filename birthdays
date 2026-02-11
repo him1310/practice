@@ -1,0 +1,207 @@
+#!/usr/bin/env python3
+
+import os
+import re
+import json
+import logging
+from datetime import datetime
+from ldap3 import Server, Connection, ALL
+from ldap3.core.exceptions import LDAPException
+from dotenv import load_dotenv
+
+# ==================================================
+# BASE PATHS
+# ==================================================
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ENV_PATH = os.path.join(os.path.dirname(BASE_DIR), ".env")
+
+DATA_DIR = os.path.join(BASE_DIR, "file_birthday")
+LOG_DIR  = os.path.join(BASE_DIR, "logs")
+
+DAILY_JSON = os.path.join(DATA_DIR, "daily_birthdays.json")
+LOG_JSON   = os.path.join(DATA_DIR, f"birthday_{datetime.now().date()}.json")
+LOG_FILE   = os.path.join(LOG_DIR, f"birthday_{datetime.now().date()}.log")
+
+# ==================================================
+# CREATE REQUIRED DIRECTORIES
+# ==================================================
+os.makedirs(DATA_DIR, exist_ok=True)
+os.makedirs(LOG_DIR, exist_ok=True)
+
+# ==================================================
+# LOAD ENV (CRON SAFE)
+# ==================================================
+load_dotenv(ENV_PATH)
+
+# ==================================================
+# LOGGING CONFIG
+# ==================================================
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(asctime)s %(levelname)s %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+logger.info("========== Birthday Script Started ==========")
+
+# ==================================================
+# LDAP CONFIG
+# ==================================================
+LDAP_SERVER = os.getenv("LDAP_SERVER")
+LDAP_USER   = os.getenv("LDAP_USER")
+LDAP_PASS   = os.getenv("LDAP_PASS")
+
+LDAP_BASES = [
+    os.getenv("LDAP_BASE_MUMBAI"),
+    os.getenv("LDAP_BASE_URAN"),
+    os.getenv("LDAP_BASE_PANVEL"),
+    os.getenv("LDAP_BASE_NHAVA"),
+]
+
+if not LDAP_SERVER or not LDAP_USER or not LDAP_PASS:
+    logger.critical("LDAP configuration missing in .env")
+    raise RuntimeError("LDAP configuration missing")
+
+# ==================================================
+# LDAP CONNECTION
+# ==================================================
+def get_ldap_connection():
+    server = Server(LDAP_SERVER, get_info=ALL)
+    return Connection(
+        server,
+        user=LDAP_USER,
+        password=LDAP_PASS,
+        auto_bind=True
+    )
+
+# ==================================================
+# FETCH USERS FROM LDAP (REAL USERS ONLY)
+# ==================================================
+def fetch_users():
+    all_users = []
+    logger.info("Fetching users from LDAP")
+
+    for ou in LDAP_BASES:
+        if not ou:
+            continue
+
+        logger.debug(f"Searching OU: {ou}")
+
+        try:
+            conn = get_ldap_connection()
+
+            # 🔐 FINAL CORRECT FILTER
+            conn.search(
+                search_base=ou,
+                search_filter="(&(objectClass=user)(sAMAccountName=*)(!(sAMAccountName=*$)))",
+                attributes=[
+                    "cn",
+                    "sAMAccountName",
+                    "department",
+                    "birthdate"
+                ]
+            )
+
+            logger.info(f"Human users found in {ou}: {len(conn.entries)}")
+
+            for entry in conn.entries:
+                all_users.append({
+                    "name": str(entry.cn) if "cn" in entry else None,
+                    "username": str(entry.sAMAccountName) if "sAMAccountName" in entry else None,
+                    "department": str(entry.department) if "department" in entry else None,
+                    "birthdate": str(entry.birthdate) if "birthdate" in entry else None,
+                })
+
+        except LDAPException as e:
+            logger.error(f"LDAP failed for OU {ou}: {e}")
+
+    logger.info(f"Total human users collected: {len(all_users)}")
+    return all_users
+
+# ==================================================
+# DOB PARSER (AD SAFE)
+# ==================================================
+def parse_dob(dob_raw):
+    dob_raw = dob_raw.strip()
+
+    if re.fullmatch(r"\d{8}", dob_raw):
+        return datetime.strptime(dob_raw, "%Y%m%d")
+
+    if re.fullmatch(r"\d{4}[-/]\d{2}[-/]\d{2}", dob_raw):
+        return datetime.strptime(dob_raw.replace("/", "-"), "%Y-%m-%d")
+
+    if re.fullmatch(r"\d{2}[-/]\d{2}[-/]\d{4}", dob_raw):
+        return datetime.strptime(dob_raw.replace("/", "-"), "%d-%m-%Y")
+
+    if re.fullmatch(r"\d{14}Z", dob_raw):
+        return datetime.strptime(dob_raw, "%Y%m%d%H%M%SZ")
+
+    if re.fullmatch(r"\d{18}", dob_raw):
+        unix_ts = (int(dob_raw) - 116444736000000000) // 10000000
+        return datetime.utcfromtimestamp(unix_ts)
+
+    raise ValueError("Unsupported DOB format")
+
+# ==================================================
+# BIRTHDAY PROCESS
+# ==================================================
+def process_birthdays():
+    today_md = datetime.now().strftime("%m-%d")
+    birthdays = []
+
+    for user in fetch_users():
+
+        username = user.get("username")
+
+        # 🛑 ABSOLUTE FINAL GUARD
+        if not username or username.endswith("$"):
+            logger.debug(f"Skipping non-human object: {username}")
+            continue
+
+        dob_raw = user.get("birthdate")
+        if not dob_raw:
+            continue
+
+        try:
+            dob = parse_dob(dob_raw)
+        except Exception:
+            # logger.warning(
+            #     f"DOB parse failed for {username} | RAW={dob_raw}"
+            # )
+            continue
+
+        if dob.strftime("%m-%d") == today_md:
+            logger.info(f"🎂 Birthday: {user.get('name')} ({username})")
+            birthdays.append({
+                "name": user.get("name"),
+                "username": username,
+                "department": user.get("department"),
+                "birthdate": dob.strftime("%Y-%m-%d"),
+            })
+
+    logger.info(f"Total birthdays today: {len(birthdays)}")
+    return birthdays
+
+# ==================================================
+# WRITE JSON FILES
+# ==================================================
+def write_json_files(data):
+    with open(DAILY_JSON, "w") as f:
+        json.dump(data, f, indent=4)
+
+    with open(LOG_JSON, "w") as f:
+        json.dump(data, f, indent=4)
+
+    logger.info("Birthday JSON files written")
+
+# ==================================================
+# MAIN
+# ==================================================
+if __name__ == "__main__":
+    birthdays_today = process_birthdays()
+    write_json_files(birthdays_today)
+    logger.info("========== Birthday Script Finished ==========")

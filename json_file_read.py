@@ -59,7 +59,7 @@ site_index = {site: round(site_sum[site] / site_count[site], 1) for site in site
 site_index['period'] = result
 
 current_date = datetime.now().strftime("%d-%m-%Y")
-file_path = Path(f"/home/ubuntu/learn/practice/index_{current_date}.log")
+    file_path = Path(f"/home/ubuntu/learn/practice/index_{current_date}.log")
 with file_path.open("w") as f:
     json.dump(site_index, f, indent=4)
 

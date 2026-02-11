@@ -16,3 +16,5 @@ DPR/
 *.csv
 
 .cred_ad
+
+.env

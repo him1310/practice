@@ -20,8 +20,9 @@ LDAP_PASS = credentials[2]
 LDAP_BASES = {
     "MUMBAI": "OU=Mumbai,OU=MumbaiRegion,DC=ONGC,DC=ONGCGROUP,DC=CO,DC=in",
     "URAN": "OU=URAN,OU=MumbaiRegion,DC=ONGC,DC=ONGCGROUP,DC=CO,DC=in",
-    "PANVEL": "OU=Panvel,OU=MumbaiRegion,DC=ONGC,DC=ONGCGROUP,DC=CO,DC=in",
-    "NHAVA": "OU=Nhava,OU=MumbaiRegion,DC=ONGC,DC=ONGCGROUP,DC=CO,DC=in",
+    "PANVEL&NHAVA": "OU=AroundMumbai,OU=MumbaiRegion,DC=ONGC,DC=ONGCGroup,DC=co,DC=in",
+    "Offshore": "OU=OngcOffshore,DC=ONGC,DC=ONGCGroup,DC=co,DC=in"
+    # "Delhi": "DC=ONGC,DC=ONGCGroup,DC=co,DC=in",
 }
 
 BIRTH_ATTR = "birthdate"     # change if needed
@@ -89,12 +90,7 @@ def get_disabled_users_birthday_tomorrow():
     # - users only
     # - exclude computers
     # - INCLUDE disabled accounts only
-    search_filter = (
-        "(&"
-        "(objectClass=user)"
-        "(!(objectClass=computer))"
-        ")"
-    )
+    search_filter = "(sAMAccountName=*)"
 
     for location, base_dn in LDAP_BASES.items():
         conn.search(
@@ -104,28 +100,46 @@ def get_disabled_users_birthday_tomorrow():
                 "sAMAccountName",
                 "displayName",
                 "department",
-                BIRTH_ATTR
+                # BIRTH_ATTR,
+                "mail",
+                "description"
             ]
         )
 
         for entry in conn.entries:
-            raw_date = entry[BIRTH_ATTR].value if BIRTH_ATTR in entry else None
-            dob = parse_ad_date(raw_date)
+            # raw_date = entry[BIRTH_ATTR].value if BIRTH_ATTR in entry else None
+            # dob = parse_ad_date(raw_date)
 
-            if not dob:
-                continue
+            # if not dob:
+            #     continue
 
             # Match TOMORROW (day & month only)
-            if dob.day == CHECK_DAY and dob.month == CHECK_MONTH:
+            # if dob.day == CHECK_DAY and dob.month == CHECK_MONTH:
+            if is_username_number(entry.sAMAccountName.value, entry.department.value):
                 results.append({
                     "location": location,
                     "username": entry.sAMAccountName.value,
                     "name": entry.displayName.value if "displayName" in entry else "",
                     "department": entry.department.value if "department" in entry else "",
-                    "birthdate": dob.strftime("%d-%m-%Y")
+                    # "birthdate": dob.strftime("%d-%m-%Y"),
+                    "mail": entry.mail.value if "mail" in entry else "",
+                    "description": entry.description.value if "description" in entry else ""
                 })
 
     return results
+
+
+def is_username_number(username:str, department:str):
+    try:
+        department = department.lower()
+        if int(username) and "superannuated" not in department and "demise" not in department and "ex employee" not in department:
+            return True
+    except:
+        return False 
+    pass
+
+
+
 
 
 # --------------------------------
@@ -133,15 +147,19 @@ def get_disabled_users_birthday_tomorrow():
 # --------------------------------
 if __name__ == "__main__":
     users = get_disabled_users_birthday_tomorrow()
-
+    f = open("practice/AD_data.csv", "w")
     if users:
         for u in users:
             print(f"Location   : {u['location']}")
             print(f"Name       : {u['name']}")
             print(f"Username   : {u['username']}")
             print(f"Department : {u['department']}")
-            print(f"Birthdate  : {u['birthdate']}")
+            # print(f"Birthdate  : {u['birthdate']}")
+            print(f"{u['mail']}")
+            print(f"{u['description']}")
+            f.write(f"{u}\n")
             print("-" * 55)
     else:
         print("\nNo disabled users have birthday tomorrow.")
     print(len(users))
+f.close()

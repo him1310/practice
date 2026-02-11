@@ -1,0 +1,168 @@
+#!/usr/bin/env python3
+
+from ldap3 import Server, Connection, ALL, Tls
+import ssl
+import csv
+
+# --------------------------------
+# CONFIGURATION
+# --------------------------------
+credentials = []
+with open("practice/.cred_ad", "r") as f:
+    credentials.extend(line.strip() for line in f)
+
+LDAP_HOST = credentials[0]
+LDAP_PORT = 389          # 636 for LDAPS
+USE_SSL   = False
+LDAP_USER = credentials[1]
+LDAP_PASS = credentials[2]
+
+LDAP_BASES = {
+    # "Delhi": "DC=ONGC,DC=ONGCGroup,DC=co,DC=in",
+    # "MUMBAI": "OU=Mumbai,OU=MumbaiRegion,DC=ONGC,DC=ONGCGROUP,DC=CO,DC=in",
+    # "URAN": "OU=URAN,OU=MumbaiRegion,DC=ONGC,DC=ONGCGROUP,DC=CO,DC=in",
+    # "PANVEL&NHAVA": "OU=AroundMumbai,OU=MumbaiRegion,DC=ONGC,DC=ONGCGroup,DC=co,DC=in",
+    # "Offshore": "OU=OngcOffshore,DC=ONGC,DC=ONGCGroup,DC=co,DC=in",
+    # "Western": "OU=WesternRegion,DC=ONGC,DC=ONGCGroup,DC=co,DC=in",
+    # "Southern": "OU=SouthernRegion,DC=ONGC,DC=ONGCGroup,DC=co,DC=in",
+    "Eastern": "OU=EasternRegion,DC=ONGC,DC=ONGCGroup,DC=co,DC=in",
+
+    # add more OUs if needed
+}
+
+OUTPUT_FILE = "practice/users1.csv"
+
+# --------------------------------
+# HELPERS
+# --------------------------------
+def is_valid_ongc_employee(username: str, department: str, description: str) -> bool:
+    """
+    Rules:
+    - sAMAccountName must exist
+    - sAMAccountName must be numeric
+    - exclude annuated / superannuated / demise / retired
+    - exclude VRS users marked as 'EX employee'
+    """
+
+    if not username or not username.isdigit():
+        return False
+
+    text = f"{department or ''} {description or ''}".lower().strip()
+
+    blacklist = [
+        "annuated",
+        "superannuated",
+        "demise",
+        "expired",
+        "retired",
+        "ex employee"
+    ]
+
+    for word in blacklist:
+        if word in text:
+            return False
+
+    return True
+
+
+# --------------------------------
+# CORE FUNCTION
+# --------------------------------
+def export_ongc_users_to_csv():
+    tls_config = Tls(validate=ssl.CERT_NONE) if USE_SSL else None
+
+    server = Server(
+        LDAP_HOST,
+        port=LDAP_PORT,
+        use_ssl=USE_SSL,
+        get_info=ALL,
+        tls=tls_config
+    )
+
+    conn = Connection(
+        server,
+        user=LDAP_USER,
+        password=LDAP_PASS,
+        auto_bind=True
+    )
+
+    unique_users = {}
+
+    # Rely ONLY on numeric sAMAccountName
+    search_filter = "(sAMAccountName=*)"
+
+    for location, base_dn in LDAP_BASES.items():
+        conn.search(
+            search_base=base_dn,
+            search_filter=search_filter,
+            attributes=[
+                "sAMAccountName",
+                "displayName",
+                "mail",
+                "title",
+                "department",
+                "mobile",
+                "description"
+            ]
+        )
+
+        for entry in conn.entries:
+            username = entry.sAMAccountName.value if "sAMAccountName" in entry else None
+            department = entry.department.value if "department" in entry else ""
+            description = entry.description.value if "description" in entry else ""
+
+            if not is_valid_ongc_employee(username, department, description):
+                continue
+
+            # Avoid duplicates across OUs
+            if username in unique_users:
+                continue
+
+            unique_users[username] = {
+                "employee_id": username,
+                "name": entry.displayName.value if "displayName" in entry else "",
+                "email": entry.mail.value if "mail" in entry else "",
+                "title": entry.title.value if "title" in entry else "",
+                "department": department,
+                "mobile": entry.mobile.value if "mobile" in entry else "",
+                "description": description
+            }
+
+    # --------------------------------
+    # WRITE CSV
+    # --------------------------------
+    with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            "EmployeeID",
+            "Name",
+            "Title",
+            "Department",
+            "Mobile",
+            "Email",
+            "Description"
+        ])
+
+        for user in unique_users.values():
+            writer.writerow([
+                user["employee_id"],
+                user["name"],
+                user["title"],
+                user["department"],
+                user["mobile"],
+                user["email"],
+                user["description"]
+            ])
+
+    return len(unique_users)
+
+
+# --------------------------------
+# MAIN
+# --------------------------------
+if __name__ == "__main__":
+    count = export_ongc_users_to_csv()
+    print("==============================================")
+    print(f"✅ Exported {count} ONGC users to {OUTPUT_FILE}")
+    print("❌ Excluded: EX employee / superannuated / demise / non-numeric IDs")
+    print("==============================================")
