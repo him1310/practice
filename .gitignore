@@ -16,5 +16,11 @@ DPR/
 *.csv
 
 .cred_ad
+<<<<<<< HEAD
 
 .env
+=======
+*.csv
+*.txt
+*.list
+>>>>>>> 9a4e7f92000710bdd490c81d453a6d047126ad21
